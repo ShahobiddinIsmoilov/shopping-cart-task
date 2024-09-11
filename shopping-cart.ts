@@ -15,8 +15,8 @@ function calculateTotalCost(items: Item[]): number {
   return items.reduce((total, item) => total + item.price, 0);
 }
 
-console.log(addItem("Apple", 1.5));
-console.log(addItem("Banana", 1));
+console.log(addItem("Razer Barracuda Pro Black Headphones", 3060000));
+console.log(addItem("Logitech Brio 4K Webcam", 1699000));
 
 const totalCost = calculateTotalCost(shoppingCart);
 console.log(`Total cost: $${totalCost}`);
